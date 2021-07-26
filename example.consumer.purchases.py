@@ -7,7 +7,7 @@ from confluent_kafka.admin import AdminClient, NewTopic
 
 
 BROKER_URL = "PLAINTEXT://localhost:29092"
-TOPIC_NAME = "up.tcc.example.purchases"
+TOPIC_NAME = "example.purchases"
 
 
 
