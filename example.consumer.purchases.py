@@ -1,14 +1,10 @@
 import asyncio
 from dataclasses import dataclass, field
 import json
-import random
 
-from confluent_kafka import Consumer, Producer
+from confluent_kafka import Consumer
 from confluent_kafka.admin import AdminClient, NewTopic
-from faker import Faker
 
-
-faker = Faker()
 
 BROKER_URL = "PLAINTEXT://localhost:29092"
 TOPIC_NAME = "up.tcc.example.purchases"
