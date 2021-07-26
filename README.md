@@ -30,7 +30,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 ### Execute container
 ``docker-compose up``
 
-## Installing dependencies
+### Installing dependencies
 ``pip install -r requirements.txt`` 
 
 ### Execute producer  kafka
