@@ -6,6 +6,9 @@
 
 ``docker --version``
 
+### Init service docker
+``sudo service docker start``
+
 ### Download docker-compose
 https://docs.docker.com/compose/install/
 
