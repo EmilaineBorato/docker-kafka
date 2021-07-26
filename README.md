@@ -9,6 +9,15 @@
 ### Init service docker
 ``sudo service docker start``
 
+### Create the docker group
+``sudo groupadd docker``
+
+### Add your user to the docker group
+``sudo usermod -aG docker $USER``
+
+### Logout and login again
+``newgrp docker``
+
 ### Download docker-compose
 https://docs.docker.com/compose/install/
 
